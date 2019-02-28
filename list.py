@@ -12,7 +12,7 @@ num1 = list[0]
 print(num1)
 
 # Выведите на экран последний элемент списка
-num_end = list[5]
+num_end = list[-1]
 print(num_end)
 
 # Удалите из списка строку "Python"

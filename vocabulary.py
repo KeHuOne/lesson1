@@ -7,7 +7,7 @@
 cities = {"city": "Москва", "temperature": "20"}
 print(cities["city"])
 
-cities["temperature"] = 15
+cities["temperature"] -= 5
 
 print(cities)
 
@@ -16,3 +16,9 @@ print(cities)
 #Выведите значение по-умолчанию "Россия" для ключа country
 #Добавьте в словарь элемент date со значением '27.05.2019'
 #Выведите на экран длину словаря
+
+print(cities.get('country', 'Россия'))
+
+cities['date'] = '27.05.2019'
+
+print(len(cities))
